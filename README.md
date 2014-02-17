@@ -19,7 +19,17 @@ As far as the specific changes we'd like you to make. . .
 
 + At the bottom of the page, you should notice a black arrow.  Make that arrow proceed between waypoints.
 
+#### Addendum, posted 7 February 2014
 
-### For 13 February
-
-TBA[dded]
+> ##### add :hover to the side navigation bar for Project-1
+> 
+> You'll notice that there are a number of effects on the Apple site which don't yet exist on our Project-1.  We'd like you to try exploring add some of this functionality.  In rough order of increasing complexity:
+>
+> 1. Shoot your own video and replace the one in Project-1
+> 2. Head over to Google Fonts and select a new font to change the Header/Footer text to.
+> 3. Add the functionality for the down triangle to switch between waypoints.
+> 4. Dynamically place text as you scroll; perhaps add a timing element/delay to the panel effects so that when you switch to a waypoint, there's a delay before, say a panel slides in or some text appears or. . .
+> 5. Change the behavior of scrolling so that rather than the video seeking in time to a different point each time you scroll, create something more like Apple's site, where scrolling triggers transitions or cutscenes.  i.e. At some point, your script should basically be saying, "When I've scrolled this far, play that scene of the video."
+> 6. Animate the emergence/arrival of the `.detail` panels-- either via fade-in, slide-in, or a mechanism of your choice.
+> 7. Similarly, animate the bottom panel sliding up when you've scrolled a certain amount.
+> 8. Set up the nav bar so that when you hover over a waypoint, some text appears next to the waypoint.  This means you'll need to insert a `div` with a description in the right place depending on what you're hovering over.
